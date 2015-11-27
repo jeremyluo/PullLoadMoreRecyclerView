@@ -43,8 +43,8 @@ public class FristFragment extends Fragment {
 
     private List<String> setList() {
         List<String> dataList = new ArrayList<>();
-        int start = 20 * (mCount - 1);
-        for (int i = start; i < 20 * mCount; i++) {
+        int start = 5 * (mCount - 1);
+        for (int i = start; i < 10 * mCount; i++) {
             dataList.add("Frist" + i);
         }
         return dataList;
